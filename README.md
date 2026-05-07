@@ -1,77 +1,79 @@
 # 🔍 Arbitrage Monitor (ELP / USDT)
 
-Система мониторинга арбитражных возможностей для пары ELP/USDT с автоматическими уведомлениями в Telegram.
+A system for monitoring arbitrage opportunities for the ELP/USDT trading pair with automated Telegram notifications.
 
-## 🧠 Описание
+## 🧠 Description
 
-Проект представляет собой инструмент для отслеживания разницы цен между источниками и выявления потенциальных арбитражных ситуаций в реальном времени.
+This project is designed to monitor price differences for the ELP/USDT trading pair and detect potential arbitrage opportunities in real time.
 
-Основная цель — минимизировать время реакции трейдера за счёт автоматического анализа рынка и мгновенных уведомлений.
+The system automatically analyzes market data and sends instant Telegram alerts when specified conditions are met.
 
-
-## ⚙️ Как работает система
-
-- Получение актуальных цен через API
-- Обработка и сравнение данных
-- Расчет спреда между источниками
-- Проверка условий (порог арбитража)
-- Отправка уведомления в Telegram при срабатывании
+The main goal is to reduce trader reaction time through automated monitoring and real-time notifications.
 
 
-## 🚀 Основные возможности
+## ⚙️ How the system works
 
-- 📡 Сбор рыночных данных через API
-- 🧮 Расчет арбитражного спреда
-- 🔔 Интеграция с Telegram для уведомлений
-- ⚙️ Настройка порогов срабатывания
-- 🔄 Непрерывный мониторинг в реальном времени
-- 🧾 Логирование работы системы
-
-
-## 📲 Telegram уведомления
-
-Реализована система уведомлений, которая:
-
-- отправляет сигнал при достижении заданного спреда
-- позволяет оперативно реагировать на возможности
-- может быть расширена под сложные стратегии
+* Fetching real-time market data via APIs
+* Processing and comparing price data
+* Calculating arbitrage spread
+* Checking trigger conditions (spread threshold)
+* Sending Telegram notifications when conditions are met
 
 
-## 🛠 Технологии
+## 🚀 Key features
 
-- Python
-- Работа с внешними API
-- Telegram Bot API
-- Логирование и обработка данных
-
-
-## 📊 Практическая ценность
-
-Проект демонстрирует:
-
-- построение систем мониторинга в реальном времени
-- интеграцию с внешними API
-- работу с финансовыми данными
-- автоматизацию уведомлений
-
-Может использоваться как:
-
-- инструмент для трейдинга
-- база для создания торгового бота
-- часть более сложной арбитражной системы
+* 📡 Real-time market data collection
+* 🧮 Arbitrage spread calculation
+* 🔔 Telegram integration for instant alerts
+* ⚙️ Configurable spread thresholds
+* 🔄 Continuous monitoring system
+* 🧾 Logging and event tracking
 
 
-## ⚠️ Ограничения
+## 📲 Telegram notifications
 
-- Не выполняет сделки автоматически
-- Работает как система сигналов
-- Требует доработки для production (масштабирование, отказоустойчивость)
+The project includes a Telegram notification system that:
+
+* sends alerts when arbitrage conditions are triggered
+* helps react quickly to market opportunities
+* can be extended with more advanced logic and strategies
 
 
-## 🔧 Возможные улучшения
+## 🛠 Technologies
 
-- Поддержка нескольких торговых пар
-- Работа с несколькими биржами
-- Автоматическое исполнение сделок
-- Веб-интерфейс
-- Историческая аналитика
+* Python
+* External API integrations
+* Telegram Bot API
+* Data processing and logging
+
+
+## 📊 Practical value
+
+This project demonstrates:
+
+* building real-time monitoring systems
+* working with external APIs
+* processing financial market data
+* automation of alert systems
+
+Can be used as:
+
+* a trading monitoring tool
+* a foundation for a trading bot
+* a component of a larger arbitrage infrastructure
+
+
+## ⚠️ Limitations
+
+* Does not execute trades automatically
+* Functions as a signal/alert system
+* Requires additional development for production-level deployment
+
+
+## 🔧 Possible improvements
+
+* Support for multiple trading pairs
+* Multi-exchange integration
+* Automated trade execution
+* Web dashboard
+* Historical analytics and reporting
